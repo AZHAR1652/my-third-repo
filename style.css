@@ -15,8 +15,9 @@ body {
         color: red;
     }
 
-    section {
+    .felxible-container {
         display: flex;
+        margin-bottom: 100px;
     }
 
     .half-width {
@@ -49,4 +50,30 @@ body {
         background-size: 35%;
     }
 
+    .orange {
+        color: orange;
+    }
+
+    .experience-item {
+        width: 50%;
+        margin-left: 3%;
+        margin-right: 3%;
+        padding-left: 15px;
+        box-shadow: 10px 10px 40px gray;
+
+    }
+
+    #web-experience {
+        border-left: 5px solid blueviolet;
+        border-image-slice: 1;
+    }
+
+    #full-stag-experience {
+        border-left: 5px solid tomato;
+        border-image-slice: 1;
+    }
+
+    footer p {
+        text-align: center;
+    }
 }
